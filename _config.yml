@@ -99,4 +99,18 @@ enable_contact: false
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
-  - { url: '/about', text: 'About' }
+  - { url: '/cv', text: 'CV' }
+
+# Build settings
+compress-site: yes
+
+encoding: "utf-8"
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+theme_skin: ceramic
+
+sass:
+  style: compressed

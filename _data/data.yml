@@ -1,0 +1,99 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: tbc
+    tagline: tbc
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: tbc
+    phone: tbc
+    website: chiefsan.github.io
+    linkedin: tbc
+    github: chiefsan
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Tamil
+        level: Native
+
+
+    interests:
+      - item: tbc
+        link:
+
+      - item: tbc
+        link:
+        
+      - item: tbc
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      tbc
+education:
+    - degree: tbc
+      university: tbc
+      time: tbc
+      details: |
+        tbc
+    - degree: tbc
+      university: tbc
+      time: tbc
+      details: |
+        tbc
+experiences:
+    - role: tbc
+      time: tbc
+      company: tbc
+      details: |
+        tbc
+    - role: tbc
+      time: tbc
+      company: tbc
+      details: |
+        tbc
+projects:
+    title: tbc
+    intro: >
+      tbc
+    assignments:
+      - title: tbc
+        link: tbc
+        tagline: tbc
+
+      - title: tbc
+        link: tbc
+        tagline: tbc
+
+publications:
+    title: tbc
+    intro: |
+      tbc
+    papers:
+      - title: The Art of Computer Programming
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+skills:
+    title: tbc
+
+    toolset:
+      - name: tbc
+        level: 98%
+
+      - name: tbc
+        level: 60%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
