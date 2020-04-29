@@ -18,9 +18,8 @@ email: 'sanjayms0111@gmail.com'
 description: "My personal homepage"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chiefsan.github.io" # the base hostname & protocol for your site, e.g. https://example.com
-twitter_username: 'Sanjay Seetharaman'
 github_username: 'chiefsan'
-medium_username: 'Sanjay Seetharaman'
+linkedin_username: 'sanjayseetharaman'
 home_section_title: 'Projects'
 home_section_subtitle: 'Projects'
 

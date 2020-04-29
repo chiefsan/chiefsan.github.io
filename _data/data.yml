@@ -4,46 +4,48 @@
 
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: tbc
-    tagline: tbc
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Sanjay Seetharaman
+    tagline: Student
+    avatar: profile.PNG  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: tbc
-    phone: tbc
+    email: sanjayms0111@gmail.com
+    # phone: 
     website: chiefsan.github.io
-    linkedin: tbc
+    linkedin: sanjayseetharaman
     github: chiefsan
 
     languages:
-      - idiom: English
-        level: Professional
-
       - idiom: Tamil
         level: Native
 
+      - idiom: English
+        level: Professional
+
+      - idiom: Hindi
+        level: Professional
 
     interests:
-      - item: tbc
+      - item: Quizzing
         link:
 
-      - item: tbc
+      - item: Speedcubing
         link:
         
-      - item: tbc
+      - item: Competitive Coding
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      tbc
+      Student at PSG College of Technology
 education:
-    - degree: tbc
-      university: tbc
-      time: tbc
+    - degree: MSc Theoretical Computer Science
+      university: PSG College of Technology
+      time: 2016-2021
       details: |
         tbc
     - degree: tbc
