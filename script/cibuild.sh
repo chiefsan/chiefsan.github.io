@@ -15,7 +15,7 @@ mkdir _site
 
 # clone remote repo to "_site"
 git clone https://${GH_TOKEN}@github.com/chiefsan/chiefsan.github.io.git --branch gh-pages _site
-gem install bundler
+
 # build with Jekyll into "_site"
 bundle exec jekyll build
 
