@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sanjay Seetharaman</title>
+    <description>My personal homepage</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 30 Apr 2020 13:02:09 +0530</pubDate>
+    <lastBuildDate>Thu, 30 Apr 2020 13:02:09 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Phantom</title>
+        <description>
+</description>
+        <pubDate>Sun, 21 Feb 2016 02:45:00 +0530</pubDate>
+        <link>http://localhost:4000/development/design/2016/02/21/phantom-jekyll-template.html</link>
+        <guid isPermaLink="true">http://localhost:4000/development/design/2016/02/21/phantom-jekyll-template.html</guid>
+        
+        <category>Jekyll</category>
+        
+        <category>Sass</category>
+        
+        <category>Bootstrap</category>
+        
+        
+        <category>development</category>
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>Rescue Themes</title>
+        <description>
+</description>
+        <pubDate>Sat, 20 Feb 2016 21:26:00 +0530</pubDate>
+        <link>http://localhost:4000/development/design/2016/02/20/rescue-themes.html</link>
+        <guid isPermaLink="true">http://localhost:4000/development/design/2016/02/20/rescue-themes.html</guid>
+        
+        <category>WordPress</category>
+        
+        <category>PHP</category>
+        
+        <category>Sass</category>
+        
+        
+        <category>development</category>
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>Weathercast</title>
+        <description>
+</description>
+        <pubDate>Sat, 20 Feb 2016 21:26:00 +0530</pubDate>
+        <link>http://localhost:4000/development/2016/02/20/weathercast.html</link>
+        <guid isPermaLink="true">http://localhost:4000/development/2016/02/20/weathercast.html</guid>
+        
+        <category>JavaScript</category>
+        
+        <category>AngularJS</category>
+        
+        <category>API</category>
+        
+        <category>Sass</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Bloc Jams Angular</title>
+        <description>
+</description>
+        <pubDate>Sat, 20 Feb 2016 19:45:00 +0530</pubDate>
+        <link>http://localhost:4000/development/2016/02/20/bloc-jams-angular.html</link>
+        <guid isPermaLink="true">http://localhost:4000/development/2016/02/20/bloc-jams-angular.html</guid>
+        
+        <category>JavaScript</category>
+        
+        <category>AngularJS</category>
+        
+        <category>Sass</category>
+        
+        <category>Grunt</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+  </channel>
+</rss>
