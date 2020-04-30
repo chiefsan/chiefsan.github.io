@@ -20,7 +20,6 @@ git clone https://${GH_TOKEN}@github.com/chiefsan/chiefsan.github.io.git --branc
 bundle exec jekyll build
 
 # push
-cd _site
 git config user.email "sanjayms0111@gmail.com"
 git config user.name "chiefsan"
 git add --all
