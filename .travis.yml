@@ -2,7 +2,7 @@ language: ruby
 # only run CI-builds on master branch
 branches:
   only:
-  - master
+  - develop
 rvm:
 - 2.5.7
 # Update to bundler 2.0
