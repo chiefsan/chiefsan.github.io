@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Sanjay Seetharaman
-    tagline: Student
+    # tagline: Student
     avatar: profile.PNG  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -38,64 +38,78 @@ sidebar:
       - item: Competitive Coding
         link:
 
-career-profile:
-    title: Career Profile
-    summary: |
-      Student at PSG College of Technology
+# career-profile:
+#     title: Career Profile
+#     summary: |
+#       Student at PSG College of Technology
 education:
     - degree: MSc Theoretical Computer Science
       university: PSG College of Technology
-      time: 2016-2021
+      time: June 2016 - present
       details: |
-        tbc
-    - degree: tbc
-      university: tbc
-      time: tbc
+        CGPA: 9.64/10
+    - degree: Senior Secondary, Grade 12
+      university: SBOA School & Junior College
+      time: May 2016
       details: |
-        tbc
+        Percentage: 93.8
+    - degree: Senior Secondary, Grade 10
+      university: SBOA School & Junior College
+      time: May 2014
+      details: |
+        CGPA: 10/10
 experiences:
-    - role: tbc
-      time: tbc
-      company: tbc
+    - role: Research Intern, Cybersecurity & Privacy group
+      time: May 2019 - November 2019 
+      company: Tata Research Development and Design Centre
+      location: Pune
       details: |
-        tbc
-    - role: tbc
-      time: tbc
-      company: tbc
-      details: |
-        tbc
+        Developed and implemented adversarial attack and defense strategies in machine learning systems.
 projects:
-    title: tbc
-    intro: >
-      tbc
+    title: Projects
+    # intro: >
+    #   intro?
     assignments:
-      - title: tbc
-        link: tbc
-        tagline: tbc
+      - title: 2PacMan
+        link: https://github.com/chiefsan/2PacMan
+        details: A bot that plays Ms Pac-Man (Based on <a href="http://repository.essex.ac.uk/4111/1/MontePacTCIAIG.pdf"><em>Fast Approximate Max-n Monte-Carlo Tree Search for Ms Pac-Man (S Samothrakis et al)</em></a>).
+        time: October 2018
 
-      - title: tbc
-        link: tbc
-        tagline: tbc
+      - title: Timetable Scheduler
+        link: https://chiefsan.github.io/TimetableScheduler/
+        details: An application that generates a timetable with least collisions based on the lists of rooms, timeslots and courses given by the user. (Based on <a href="https://ieeexplore.ieee.org/abstract/document/1225396"><em>Solving timetable scheduling problem using Genetic Algorithms (B Sigl et al)</em></a>).
+        time: November 2018
 
-publications:
-    title: tbc
-    intro: |
-      tbc
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Distributed MST
+        link: https://chiefsan.github.io/TimetableScheduler/
+        details: A client server model to solve the minimum spanning tree problem in O(V logV) (Based on <a href="https://www.cs.tau.ac.il/~afek/p66-gallager.pdf"><em>A distributed algorithm for minimum-weight spanning trees (RG Gallager et al)</em></a>).
+        time: November 2018
+
+# publications:
+#     title: tbc
+#     intro: |
+#       tbc
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
 
 skills:
-    title: tbc
+    title: Skills
 
-    toolset:
-      - name: tbc
+
+    programminglanguages:
+      - name: C++, Python
         level: 98%
 
-      - name: tbc
-        level: 60%
+      - name: C, R, Java
+        level: 70%
 
+      - name: SQL, HTML, JavaScript, Ruby, Assembly, Shell
+        level: 50%
+    
+    tools: 
+      - name: LaTex, Git, Matlab, Qt, GTK, PVM
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

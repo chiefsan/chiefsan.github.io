@@ -1,6 +1,11 @@
 /* ======= Base ======= */
+
+%opensans { font-family: 'Open Sans', sans-serif; }
+%merriweather { font-family: 'Merriweather', serif; }
+
 body {
-    font-family: 'Roboto', sans-serif;
+    // font-family: 'Roboto', sans-serif;
+    @extend %opensans;
     color: $text-color-secondary;
     background: $smoky-white;
     font-size: 14px;
@@ -185,17 +190,26 @@ p {
         font-size: 16px;
         margin-top: 0;
         margin-bottom: 0;
-        font-weight: 500;
+        font-weight: bold;
     }
     .time {
         position: absolute;
         right: 0;
         top: 0;
-        color: $text-grey;
+        font-style: italic;
+        // color: $text-grey;
+    }
+    .location {
+        position: absolute;
+        right: 0;   
+        top: 0;
+        font-style: italic;
+        // color: $text-grey;
     }
     .company, .university {
-        margin-bottom: 10px;
-        color: $text-grey;
+        margin-bottom: 5px;
+        // font-weight: bold;
+        // color: $text-grey;
     }
 
     .project-title {
@@ -242,6 +256,11 @@ p {
         overflow: hidden;
     }
     .level-title {
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 12px;
+    }
+    .level-title-tools {
         font-size: 14px;
         margin-top: 0;
         margin-bottom: 12px;
