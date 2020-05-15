@@ -27,6 +27,7 @@ home_section_subtitle: 'Projects'
 markdown: kramdown
 plugins:
   - jekyll-paginate-v2
+  - jekyll-sitemap        
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
