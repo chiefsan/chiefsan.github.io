@@ -22,7 +22,14 @@ github_username: 'chiefsan'
 linkedin_username: 'sanjayseetharaman'
 home_section_title: 'Projects'
 home_section_subtitle: 'Projects'
-
+author:
+  name: Sanjay Seetharaman
+  image: "/assets/images/profile.PNG"
+  social:
+    name: Sanjay Seetharaman
+    links:
+      - https://www.linkedin.com/sanjayseetharaman
+      - https://github.com/chiefsan
 # Build settings
 markdown: kramdown
 plugins:
