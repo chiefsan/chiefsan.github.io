@@ -17,5 +17,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "jekyll-paginate-v2", "~> 2.0"
   spec.add_development_dependency "jekyll-seo-tag"
   spec.add_development_dependency "jekyll-sitemap"
-  gem "kramdown-parser-gfm"
+  spec.add_development_dependency "kramdown-parser-gfm"
 end
