@@ -1,0 +1,39 @@
+{% include header.html %}
+
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="content">
+                    <h3 class="title">{{ page.title }}</h3>
+                    <p class="excerpt">{{ page.lead_text }}</p>
+                    <div class="tags">
+                    
+                        <time datetime="{{ page.date | date_to_xmlschema }}"
+                            itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+                    </div>
+                
+                </div>
+                {{ content | markdownify }}
+                <br>
+                {% if page.tags %}
+                <h4 class="title">Metadata and Navigation</h4>
+                {% for tag in page.tags %}
+                <i class="fa fa-tag" aria-hidden="true"></i> <span><a href="http://localhost:4000/tag/{{ tag }}/">{{ tag }} </a></span>
+                {% endfor %}
+                <br>
+                {% endif %}
+                {% if page.previous.url %}
+                <i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Previous post: <a class="prev" href="{{page.previous.url}}">{{page.previous.title}}</a>
+                {% endif %}
+                {% if page.next.url %}
+                <br>
+                <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Next post: <a class="next" href="{{page.next.url}}">{{page.next.title}}</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</article>
+
+
+{% include footer.html %}
