@@ -37,6 +37,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+environment: production
 
 # Enable future posts (this is to track a bug with --drafts causing issues)
 future: true
