@@ -34,7 +34,7 @@
                         {% if page.tags %}
                         <br>
                         Tags: {% for tag in page.tags %}
-                        <span><a href="{{ site.url }}/tag/{{ tag }}/">{{ tag }} </a></span>
+                        <span><a href="{{ site.url }}/tag/{{ tag | downcase }}/">{{ tag | downcase }} </a></span>
                         {% endfor %}
                         {% endif %}
                     </div>
