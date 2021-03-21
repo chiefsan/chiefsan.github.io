@@ -20,7 +20,13 @@ layout: misc-layout
             <a href="{{ post.url }}">
                 <h3 class="title">{{ post.title }}</h3>
             </a>
-            <p class="excerpt">{{ post.excerpt }}</p>
+            <p class="excerpt">
+                {% if post.preview_text %}
+                    {{ post.preview_text }}
+                {% else %}
+                    {{ post.excerpt }}
+                {% endif %}
+            </p>
         </li>
         <!-- <li>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>

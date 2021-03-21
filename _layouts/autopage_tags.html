@@ -20,7 +20,13 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="content">
                     <h3 class="title">{{ page.title }}</h3>
-                    <p class="excerpt">{{ page.lead_text }}</p>
+                    <p class="excerpt">
+                        {% if post.preview_text %}
+                            {{ post.preview_text }}
+                        {% else %}
+                            {{ post.excerpt }}
+                        {% endif %}
+                    </p>
                     <div class="tags">
 
                         <time datetime="{{ page.date | date_to_xmlschema }}"
