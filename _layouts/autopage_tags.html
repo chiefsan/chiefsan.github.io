@@ -1,0 +1,114 @@
+<!-- Just some nice to have styles for the pager buttons -->
+<!-- <style>
+    ul.pager {
+        text-align: center;
+        list-style: none;
+    }
+
+    ul.pager li {
+        display: inline;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 5px;
+    }
+</style> -->
+
+
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="content">
+                    <h3 class="title">{{ page.title }}</h3>
+                    <p class="excerpt">
+                        {% if post.preview_text %}
+                            {{ post.preview_text }}
+                        {% else %}
+                            {{ post.excerpt }}
+                        {% endif %}
+                    </p>
+                    <div class="tags">
+
+                        <time datetime="{{ page.date | date_to_xmlschema }}"
+                            itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+                        {% if page.tags %}
+                        <br>
+                        Tags: {% for tag in page.tags %}
+                        <span><a href="{{ site.url }}/tag/{{ tag | downcase }}/">{{ tag }} </a></span>
+                        {% endfor %}
+                        {% endif %}
+                    </div>
+
+                </div>
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</article>
+
+<div class="home">
+
+    <h1 class="page-heading">AutoPage for Tag <b>{% if page.autopages %}{{page.autopages.display_name}}{% endif %}</b>
+        Page {{page.pagination_info.curr_page}} of {{page.pagination_info.total_pages}}</h1>
+
+    This page is automagically created and paginated for each tag available in the posts on this site
+
+    {{ content | markdownify }}
+
+    <ul class="post-list">
+        <!-- 
+        Here is the main paginator logic called.
+        All calls to site.posts should be replaced by paginator.posts 
+    -->
+        {% for post in paginator.posts %}
+        <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.book.rank %} | Rank:
+                {{ post.book.rank }}{% endif %}{% if post.collection %} |
+                {{ post.collection }}{% endif %}{% if post.tags %}<br>Tags: {{ post.tags }}{% endif %}</span>
+            <h2>
+                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h2>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <!-- 
+    Showing buttons to move to the next and to the previous list of posts (pager buttons).
+  -->
+    {% include pagination.html %}
+
+</div>
+
+{% include header.html %}
+
+<main id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="break"></div>
+                {% if site.home_section_title != '' %}
+                <h2 class="section-title text-center">{{ site.home_section_title }}</h2>
+                {% endif %}
+
+                <div class="break"></div>
+
+                {% for post in paginator.posts %}
+                <div class="wow fadeIn">
+                    {% if post.position == "left" %}
+                    {% include content-left.html %}
+                    {% endif %}
+
+                    {% if post.position == "right" %}
+                    {% include content-right.html %}
+                    {% endif %}
+                </div>
+                {% endfor %}
+
+                {% include pagination.html %}
+
+            </div>
+        </div>
+    </div>
+</main>
+
+{% include footer.html %}
