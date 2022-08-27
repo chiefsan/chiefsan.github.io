@@ -29,14 +29,12 @@ sidebar:
         level: Professional
 
     interests:
-      - item: Quizzing
+      - item: Football
         link:
 
-      - item: Speedcubing
+      - item: Quizzing
         link:
         
-      - item: Competitive Programming
-        link:
 
 
 # career-profile:
@@ -45,8 +43,11 @@ sidebar:
 #       Student at PSG College of Technology
 education:
     - degree: MSc Theoretical Computer Science
+      university: The Institute of Mathematical Sciences
+      time: October 2021 - present
+    - degree: MSc Theoretical Computer Science
       university: PSG College of Technology
-      time: June 2016 - present
+      time: June 2016 - May 2021
       details: |
         CGPA: 9.64/10
     - degree: Senior Secondary, Grade 12
@@ -61,41 +62,41 @@ education:
         CGPA: 10/10
 experiences:
     - role: Intern
-      time: January 2021 - present
-      company: Institute of Mathematical Sciences
+      time: January 2021 - September 2021
+      company: The Institute of Mathematical Sciences
       location: Chennai
       details: |
-        [to be updated]
+        Studied a variant of the Multiagent Knapsack problem.
     - role: Intern, Cybersecurity & Privacy group
       time: May 2019 - November 2019 
       company: Tata Research Development and Design Centre
       location: Pune
       details: |
         Developed and implemented adversarial attack and defense strategies in machine learning systems.
-projects:
-    title: Projects
-    # intro: >
-    #   intro?
-    assignments:
-      - title: GraphMST
-        link: https://github.com/chiefsan/GraphMST/
-        details: A Python package for computing MST in graphs that contains an implementation of the <em><a href="http://cs.brown.edu/research/pubs/pdfs/1995/Karger-1995-RLT.pdf">Expected linear time MST algorithm</a></em>.
-        time: April 2020
-
-      - title: 2PacMan
-        link: https://github.com/chiefsan/2PacMan/
-        details: A bot that plays Ms Pac-Man (Based on <a href="http://repository.essex.ac.uk/4111/1/MontePacTCIAIG.pdf"><em>Fast Approximate Max-n Monte-Carlo Tree Search for Ms Pac-Man (S Samothrakis et al)</em></a>).
-        time: October 2018
-
-      - title: deCiPher
-        link: https://chiefsan.github.io/deCiPher/
-        details: A full-text search package in Python. Provides indexing and search features and can easily be added to a <a href="https://decipher-frontend.herokuapp.com">website</a>.
-        time: November 2020
-
-      - title: Timetable Scheduler
-        link: https://chiefsan.github.io/TimetableScheduler/
-        details: An application that generates a timetable with least collisions based on the lists of rooms, timeslots and courses given by the user. (Based on <a href="https://ieeexplore.ieee.org/abstract/document/1225396"><em>Solving timetable scheduling problem using Genetic Algorithms (B Sigl et al)</em></a>).
-        time: November 2018
+#projects:
+#    title: Projects
+#    # intro: >
+#    #   intro?
+#    assignments:
+#      - title: GraphMST
+#        link: https://github.com/chiefsan/GraphMST/
+#        details: A Python package for computing MST in graphs that contains an implementation of the <em><a href="http://cs.brown.edu/research/pubs/pdfs/1995/Karger-1995-RLT.pdf">Expected linear time MST #algorithm</a></em>.
+#        time: April 2020
+#
+#      - title: 2PacMan
+#        link: https://github.com/chiefsan/2PacMan/
+#        details: A bot that plays Ms Pac-Man (Based on <a href="http://repository.essex.ac.uk/4111/1/MontePacTCIAIG.pdf"><em>Fast Approximate Max-n Monte-Carlo Tree Search for Ms Pac-Man (S Samothrakis et al)</em></a>).
+#        time: October 2018
+#
+#      - title: deCiPher
+#        link: https://chiefsan.github.io/deCiPher/
+#        details: A full-text search package in Python. Provides indexing and search features and can easily be added to a <a href="https://decipher-frontend.herokuapp.com">website</a>.
+#        time: November 2020
+#
+#      - title: Timetable Scheduler
+#        link: https://chiefsan.github.io/TimetableScheduler/
+#        details: An application that generates a timetable with least collisions based on the lists of rooms, timeslots and courses given by the user. (Based on <a href="https://ieeexplore.ieee.org/abstract/document/1225396"><em>Solving timetable scheduling problem using Genetic Algorithms (B Sigl et al)</em></a>).
+#        time: November 2018
 
 
 # publications:
@@ -108,21 +109,21 @@ projects:
 #         authors: Donald E. Knuth
 #         conference: Addison-Wesley, 1968
 
-skills:
-    title: Skills
-
-
-    programminglanguages:
-      - name: C++, Python
-        level: 98%
-
-      - name: C, R, Java
-        level: 70%
-
-      - name: SQL, HTML, JavaScript, Ruby, Assembly, Shell
-        level: 50%
-    
-    tools: 
-      - name: LaTeX, Git, Matlab, Qt, GTK, PVM
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+#skills:
+#    title: Skills
+#
+#
+#    programminglanguages:
+#      - name: C++, Python
+#        level: 98%
+#
+#      - name: C, R, Java
+#        level: 70%
+#
+#      - name: SQL, HTML, JavaScript, Ruby, Assembly, Shell
+#        level: 50%
+#    
+#    tools: 
+#      - name: LaTeX, Git, Matlab, Qt, GTK, PVM
+#footer: >
+#    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

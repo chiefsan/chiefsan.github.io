@@ -21,7 +21,7 @@ url: "https://chiefsan.github.io" # the base hostname & protocol for your site, 
 fullurl: "https://chiefsan.github.io"
 github_username: 'chiefsan'
 linkedin_username: 'sanjayseetharaman'
-home_section_title: 'Projects'
+home_section_title: 'Programming Projects'
 home_section_subtitle: 'Projects'
 author:
   name: Sanjay Seetharaman
@@ -59,10 +59,14 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
+collections_dir: collections
+
 collections:
   misc:
     output: true
-    permalink: /collection/misc/:path/
+    permalink: /misc/:path/
+  posts:
+    output: false
 
 autopages:
   enabled: true
@@ -75,6 +79,8 @@ autopages:
     slugify:
       mode: 'ascii'
       cased: false
+    permalink: ':coll'
+    title: 'Posts in :coll'
 
 permalink: pretty
 
@@ -149,7 +155,7 @@ enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/cv', text: 'CV' }
-  - { url: '/collection/misc', text: 'Misc' }
+#  - { url: '/misc', text: 'Misc' }
 
 # Build settings
 compress-site: yes
